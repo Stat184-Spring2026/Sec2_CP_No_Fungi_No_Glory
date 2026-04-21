@@ -40,8 +40,8 @@ The following checklist provides your team with an expanded listing of all eleme
 - [X] Complete Checkpoint #1 and make a team contract.
 - [ ] Create (and update) a detailed plan for your project.
   - [ ] Place a copy of your plan in your repo.
-- [ ] Brainstorm what you're interested in exploring and look for potential data sources. (See the [Data and Topics](#data-and-topics) for resources.)
-- [ ] Locate appropriate data sources for your project. See the [Data Requirements](#data-requirements) section for important restrictions.
+- [X] Brainstorm what you're interested in exploring and look for potential data sources. (See the [Data and Topics](#data-and-topics) for resources.)
+- [X] Locate appropriate data sources for your project. See the [Data Requirements](#data-requirements) section for important restrictions.
 - [X] Create a repo using the template repo. Name your repo `Sec#_CP_Name1_Name2_Name3` where `Sec#` is your section of Stat184 (i.e., `Sec1`, `Sec2`, `Sec4`, or `Sec5`) and `Name#` is replaced with the names of each team member.
   - [X] The owner of the repo should be `Stat184-Spring2026`. 
   - [X] Make sure that each team member has access to the repo.
