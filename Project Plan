@@ -1,28 +1,26 @@
+Purpose/ Plan : 
 Our goal is to explore the mushroom dataset and understand the patterns and relationships between different features, such as cap shape, colour, gill structure, and whether a mushroom is edible or poisonous. We plan on implementing the Exploratory Data Analysis method to determine which features are most useful in finding whether a mushroom is edible or not. We aim to use R for data cleaning, visualisation, and storytelling, while using Quarto to build a structured, reproducible report.
 
+Needs: 
 Our team will work with the mushroom dataset using R and RStudio, where we will first understand the variables and clean the data before analysing it. We will use tidyverse tools like dplyr and tidyr for data cleaning, wrangling and organisation, and ggplot2 to create clear and meaningful visualisations. To collaborate effectively, we will use a shared GitHub repository where each member will make commits, work on separate branches, and review each other’s work using pull requests. Our final analysis and findings will be presented in a Quarto report so that our work is well-organised and reproducible. Throughout the project, we will regularly attend classes to keep up with the work , communicate consistently, and divide tasks clearly to stay on track and ensure that everyone contributes equally.
 
 
 STEPS: 
 
-Analyse Documentation: Review the dataset dictionary to understand the codes for features like cap shape, odour, and gill colour.
-
-Define Research Goals: Decide on specific questions, such as which physical traits are the strongest predictors of toxicity.
-
-Configure GitHub: Create a shared repository and ensure all members can clone, push, and pull code.
-
-Import Dataset: Member A loads the raw data into R.
-
-Clean Data: Member A fixes missing values and ensures all variables are correctly formatted (e.g., converting text to factors).
-Validate Cleaning: The team reviews the cleaned data to ensure it is ready for analysis.
-Run Summary Statistics: Use R to calculate frequencies and distributions for edible vs. poisonous mushrooms.
-Identify Patterns: Compare variables to see which features (like "foul odor") correlate most with poisonous classes.
-Set Design Standards: Members B and C establish a consistent theme and color palette for all charts.
-Create Visuals: Each team member builds at least one specific plot (e.g., bar charts or heatmaps) using ggplot2.
-Refine Graphics: Add clear titles, labels, and legends to make the charts easy to read.
-Interpret Findings: The group meets to write explanations for the patterns discovered in the charts.
-Build Quarto Report: Assemble the code, text, and visuals into a single .qmd file.
-Generate PDF: Render the final report to a professional PDF format, ensuring it is organised and reproducible.
-Use Branches: Work on separate features in GitHub to avoid code conflicts.
-Peer Review: Use 'Pull Requests' to check each other’s code for errors before merging into the final version.
-Final Quality Check: Ensure all tasks are completed and the final repository is clean and well-documented.
+1. Analyse Documentation: Review the dataset dictionary to understand the codes for features like cap shape, odour, and gill colour.
+2. Define Research Goals: Decide on specific questions, such as which physical traits are the strongest predictors of toxicity.
+3. Configure GitHub: Create a shared repository and ensure all members can clone, push, and pull code.
+4. Import Dataset: Member A loads the raw data into R.
+5. Clean Data: Member A fixes missing values and ensures all variables are correctly formatted (e.g., converting text to factors).
+6. Validate Cleaning: The team reviews the cleaned data to ensure it is ready for analysis.
+7. Run Summary Statistics: Use R to calculate frequencies and distributions for edible vs. poisonous mushrooms.
+8. Identify Patterns: Compare variables to see which features (like "foul odor") correlate most with poisonous classes.
+9. Set Design Standards: Members B and C establish a consistent theme and color palette for all charts.
+10. Create Visuals: Each team member builds at least one specific plot (e.g., bar charts or heatmaps) using ggplot2.
+11. Refine Graphics: Add clear titles, labels, and legends to make the charts easy to read.
+12. Interpret Findings: The group meets to write explanations for the patterns discovered in the charts.
+13. Build Quarto Report: Assemble the code, text, and visuals into a single .qmd file.
+14. Generate PDF: Render the final report to a professional PDF format, ensuring it is organised and reproducible.
+15. Use Branches: Work on separate features in GitHub to avoid code conflicts.
+16. Peer Review: Use 'Pull Requests' to check each other’s code for errors before merging into the final version.
+17. Final Quality Check: Ensure all tasks are completed and the final repository is clean and well-documented.
