@@ -1,6 +1,6 @@
 library(dplyr)
 
-data <- read.table("agaricus-lepiota.data", header = FALSE, sep = ",")
+data <- read.table("data/agaricus-lepiota.data", header = FALSE, sep = ",")
 
 data_with_columns <- data |>
   rename(
