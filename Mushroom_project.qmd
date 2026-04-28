@@ -1,0 +1,77 @@
+---
+title: "Project_report"
+format: pdf
+editor: visual
+---
+
+# 
+
+## Introduction
+
+Apart from their importance in ecosystems, culinary dishes, and biodiversity, mushrooms pose a serious threat to public health in cases where they are misidentified and consumed. Given that there are many different types of mushrooms that look alike, finding characteristics that can differentiate between edible and poisonous mushrooms is both fascinating and relevant. Identifying the differences may allow us to learn how observable attributes can be linked to classification results.
+
+In the current project, our goal is to use the method of exploratory data analysis (EDA) to explore how different characteristics of mushrooms are related to whether or not they are poisonous. As opposed to developing prediction models, our main objective is to find patterns and features that show high predictive potential and compare the distribution of feature values.
+
+## Data Provenance
+
+The data set employed in this study is the Mushroom Data Set, which is also referred to as the Agaricus-Lepiota mushroom data set. This data set consists of hypothetical observations about mushrooms based on information about actual species belonging to the Agaricus and Lepiota families. The data set has a number of features, including those regarding the physical characteristics of the mushrooms like cap shape, cap color, odor, gill type, bruising, habitats, and spore print colors.
+
+This data set is classified according to whether the mushrooms are either edible or poisonous. The data were obtained from descriptions found in field guides, and it has been frequently used in classification and pattern recognition research. This data set is especially suitable for use in the current study since it has numerous categorical features.
+
+There are over 8,000 observations in this data set and over 20 attributes, providing enough data for exploratory purposes.
+
+## FAIR and CARE Principles
+
+### FAIR Principles
+
+This dataset satisfies several FAIR principles:
+
+-  **Findable:** The mushroom dataset is publicly available and well known in educational and research settings.
+
+-  **Accessible:** The data can be downloaded in standard text format and easily imported into R.
+
+-  **Interoperable:** Because the data are structured in rows and columns, they can be used across multiple software platforms such as R, Python, and spreadsheet tools.
+
+-  **Reusable:** The variables are documented through a Quatro file, allowing future users to understand and reuse the dataset effectively.
+
+### CARE Principles
+
+The CARE principles emphasize the following: Collective Benefit, Authority to Control, Responsibility, and Ethics. In this case, since the dataset is devoid of any personal and community-held human data, the CARE principles are relevant only to an extent in contrast to social and indigenous datasets. However, in our research, we embrace the spirit of CARE principles through responsible use of the dataset and proper reporting of findings.
+
+## Interpretation of Key Findings
+
+### Class Distribution
+
+The dataset contains a relatively balanced distribution of edible and poisonous mushrooms. This is useful for exploratory analysis because comparisons between classes are not heavily distorted by extreme imbalance.
+
+### Odor and Toxicity
+
+Odor appears to be one of the strongest indicators of mushroom classification. Mushrooms with foul, pungent, or fishy odors are much more likely to be poisonous, while mushrooms with almond, anise, or no odor are more commonly edible. This suggests odor may be one of the most informative observable characteristics in the dataset.
+
+### Gill Color
+
+Gill color also shows noticeable differences between edible and poisonous mushrooms. Some colors appear more frequently in poisonous mushrooms, while others are more common among edible mushrooms. This indicates that internal structural features may help distinguish mushroom classes.
+
+### Bruising
+
+Bruising patterns reveal another meaningful relationship. Mushrooms that bruise and mushrooms that do not bruise show different class proportions, suggesting bruising may provide additional classification insight when combined with other traits.
+
+### Spore Print Color
+
+Spore print color demonstrates strong variation across mushroom classes. Certain spore print colors appear highly associated with either edible or poisonous mushrooms, making this another useful variable for comparison.
+
+## Limitations
+
+Although this dataset is rich in categorical features, it also has limitations. The data do not include geographic location, time period, environmental conditions, or continuous biological measurements that could offer additional insight. Some observations may represent simplified classifications rather than full real-world field conditions. In addition, exploratory analysis identifies associations but does not establish causation.
+
+## Conclusion
+
+In this study, the use of exploratory data analysis was used to examine the relationship between mushroom attributes and their classification as either poisonous or edible mushrooms. Various features were found to be highly discriminant when separating the two groups of mushrooms, including odor, gill color, bruises, and spore print color.
+
+In addition to working on this dataset, this project helped us improve our data cleaning process, teamwork, version control practices, visualization techniques, and reproducible research reports using R and Quarto. Thus, the mushroom dataset has proven to be an appropriate choice for this project and our learning journey in this class.
+
+## Author Contributions
+
+**Fatmah:** Data import, cleaning, variable recoding, documentation review.\
+**Anchita:** Summary statistics, tables, visualizations, pattern analysis.\
+**Heet:** Report writing, data provenance, FAIR/CARE discussion, conclusions, formatting and final review.
